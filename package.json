@@ -1,0 +1,30 @@
+{
+  "name": "@waghravi/validate",
+  "version": "1.1.0",
+  "description": "Validations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravindra-wagh-ai/validate.git"
+  },
+  "author": "Ravindra Wagh <ravindra.wagh@live.in>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravindra-wagh-ai/validate/issues"
+  },
+  "homepage": "https://github.com/ravindra-wagh-ai/validate#readme",
+  "devDependencies": {
+    "@types/typescript": "^0.4.29"
+  }
+}
